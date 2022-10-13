@@ -4,12 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./main.css">
+    
     <title>Git Search</title>
   </head>
+
   <body>
-    <main></main>
+    <div class="div-header">
+      <header class="container-home header">
+        <h1>Git Search</h1>
+        <p>Encontre e se conecte com profissionais de forma rápida e fácil</p>
+        <div>
+          <p>Achados Recentemente:</p>
+          <a href="">
+            <img src="../../img/Ellipse 3.svg" alt="">
+          </a>
+
+          <a href="">
+            <img src="../../img/Ellipse 3.svg" alt="">
+          </a>
+
+          <a href="">
+            <img src="../../img/Ellipse 3.svg" alt="">
+          </a>
+        </div>
+      </header>
+    </div>
+
+    <div class="div-main">
+      <main class="container-home main">
+        <h2>Procurar por um usuário</h2>
+        <form>
+          <label for="user">Usuário github</label>
+          <input id="user" type="text" placeholder="Digite um usuário do github aqui..." required>
+          <button>Ver perfil do github</button>
+        </form>
+      </main>
+    </div>
+    
     <script src="index.js"></script>
   </body>
 </html>

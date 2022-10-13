@@ -1,0 +1,58 @@
+header {
+    margin-top: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--brand-2);
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.profile div h1 {
+    font-weight: var(--weight-1);
+    font-size: var(--size-2);
+    margin-bottom: 14px;
+}
+
+.profile div p{
+    font-weight: var(--weight-2);
+    font-size: var(--size-4);
+    color: var(--grey-5);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav button{
+    border-radius: var(--radius-2);
+    font-weight: var(--weight-1);
+    font-size: var(--size-4);
+    background-color: var(--grey-4);
+    padding: 8px 16px;
+}
+
+.nav button:hover {
+    background-color: var(--grey-3);
+}
+
+.nav .mail{
+    background-color: var(--brand-2);
+}
+
+.nav .mail:hover{
+    background-color: var(--brand-1);
+}
