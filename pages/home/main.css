@@ -13,6 +13,10 @@
     margin-bottom: 45px;
 }
 
+/* form {
+    max-width: 100%;
+} */
+
 .main label{
     font-weight: var(--weight-2);
     font-size: var(--size-5);
@@ -22,14 +26,12 @@
 
 .main input {
     height: 38px;
-    width: 100%;
+    width: 96.8%;
     background-color: var(--grey-1);
     border: 1px solid var(--grey-3);
     border-radius: var(--radius-2);
+    color: var(--white);
     margin-bottom: 20px;
-}
-
-.main input::placeholder {
     padding-left: 12px;
 }
 

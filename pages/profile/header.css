@@ -19,7 +19,7 @@ header {
     margin-right: 20px;
 }
 
-.profile div h1 {
+.profile div h2 {
     font-weight: var(--weight-1);
     font-size: var(--size-2);
     margin-bottom: 14px;
