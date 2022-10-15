@@ -31,8 +31,16 @@
     border: 1px solid var(--grey-3);
     border-radius: var(--radius-2);
     color: var(--white);
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     padding-left: 12px;
+}
+
+.not-found{
+    font-weight: var(--weight-3);
+    font-size: var(--size-5);
+    color: var(--color-alert);
+    margin-bottom: 20px;
+    display: none;
 }
 
 .main button{
