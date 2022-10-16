@@ -50,8 +50,29 @@
     border-radius: var(--radius-2);
     font-weight: var(--weight-2);
     font-size: var(--size-5);
+    display: grid;
+    place-items: center;
 }
 
 .main button:hover{
     background-color: var(--brand-2);
+}
+
+.loading{
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 5px solid #bbbbbb;
+    border-top-color: #a41e75;
+    animation: rotation 1s infinite;
+    /* position: relative;
+    left: 47%; */
+}
+
+@keyframes rotation {
+    to {
+        transform: rotate(1turn);
+    }
 }
