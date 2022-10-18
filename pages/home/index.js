@@ -21,7 +21,7 @@ function getInputValue(input, button) {
             localStorage.setItem('userFound', JSON.stringify(user))
 
             
-            window.location.assign("http://127.0.0.1:5501/pages/profile/index.html")
+            window.location.assign("/pages/profile/index.html")
             
         } catch (error) {
             event.preventDefault()
