@@ -37,12 +37,7 @@ function getInputValue(input, button) {
             localStorage.setItem('userFound', JSON.stringify(user))
 
             
-            // recentUsers.splice(2, 1)
-            // recentUsers.unshift(user)
-            // localStorage.setItem('recentUsers', JSON.stringify(recentUsers))
-            // console.log(recentUsers)
-
-            window.location.assign("http://127.0.0.1:5501/pages/profile/index.html")
+            window.location.assign("/pages/profile/index.html")
             
         } catch(error) {
             spanLoading.classList.remove('loading')
