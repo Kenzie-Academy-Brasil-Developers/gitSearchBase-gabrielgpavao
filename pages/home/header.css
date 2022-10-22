@@ -23,11 +23,12 @@ body{
     margin-bottom: 45px;
 }
 
-.header div{
+.header > div{
     width: 350px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 12px;
 }
 
 .header div p{
@@ -35,8 +36,10 @@ body{
     font-weight: var(--weight-2);
 }
 
-.header div a img {
+#recentUsers a img {
     display: inline-block;
     height: 44px;
     width: 44px;
+    border-radius: 100%;
+    margin-right: 5px;
 }
