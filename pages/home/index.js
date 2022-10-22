@@ -6,9 +6,19 @@ const spanLoading     = document.querySelector('#spanLoading')
 
 
 let recentUsers = [JSON.parse(localStorage.getItem('recentUsers'))]
-console.log(recentUsers)
+// console.log(recentUsers)
 
 function getInputValue(input, button) {
+    input.addEventListener('keyup', () => {
+        if (input.value !== ''){
+            button.removeAttribute('disabled')
+            button.classList.remove('disabled')
+        } else{
+            button.setAttribute('disabled', true)
+            button.classList.add('disabled')
+        }
+    })
+    
     button.addEventListener('click', async (event) => {
         event.preventDefault()
         try {

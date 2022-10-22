@@ -58,6 +58,17 @@
     background-color: var(--brand-2);
 }
 
+.main .disabled{
+    background-color: rgba(214, 51, 108, 0.4);
+    color: rgba(255, 255, 255, 0.35);
+    cursor: auto;
+}
+
+.main .disabled:hover{
+    background-color: rgba(214, 51, 108, 0.4);
+    color: rgba(255, 255, 255, 0.35);
+}
+
 .loading{
     display: block;
     height: 15px;
